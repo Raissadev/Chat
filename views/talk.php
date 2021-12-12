@@ -2,7 +2,6 @@
     $isMessage = explode('/',$_SERVER['PATH_INFO']);
     if($isMessage[2] === $data['data']){
 ?>
-
 <section class="container-messages">
     
     <div class="content-messages">
@@ -10,12 +9,12 @@
             <li class="message user-message message-to items-flex margin-bottom-default">
                 <div class="col margin-right-small">
                     <figure class="img-small-user">
-                        <img src="<?= BASE_STORAGE ?>users/myImg.png" />
+                        <img src="<?= BASE_STORAGE ?>users/<?= $data['user']['image'] ?>" />
                     </figure>
                 </div>
                 <div class="col w95">
                     <div class="items-flex align-center margin-bottom-small">
-                        <h6 class="margin-right-small">Desenvolvedora</h6>
+                        <h6 class="margin-right-small"><?= $data['user']['name'] ?></h6>
                         <p class="tiny"><?= date('H:i:s'); ?></p>
                     </div>
                     <div class="box">
