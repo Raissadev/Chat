@@ -1,0 +1,27 @@
+section.container-authentication{
+    height: 100vh;
+    background-image: url('../storage/images/banner.png');
+    background-size: cover;
+    background-position:center;
+}
+
+form.form-auth {
+    padding: 3rem 2rem;
+    background: rgba( 41, 42, 51, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(37, 37, 37, 0.37);
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+form.form-auth input{
+    width: 100%;
+    margin-bottom: 0.7rem;
+}
+form.form-auth button{
+    width: 30%;
+    margin:0 auto;
+    background-color:var(--purple);
+    color: var(--white);
+    height: 40px;
+}

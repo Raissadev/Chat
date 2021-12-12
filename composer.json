@@ -1,0 +1,32 @@
+{
+    "name": "user/my-community",
+    "description": "Website for community",
+    "type": "library",
+    "autoload": {
+        "files": [
+            "App/DB.php"
+        ],
+        "psr-4": {
+            "User\\MyInvestments\\": "src/",
+            "src\\Authenticator\\": "src/Authenticator/",
+            "src\\Repository\\": "src/Repository/",
+            "src\\Helper\\": "src/Helper/",
+            "src\\Exceptions\\": "src/Exceptions/",
+            "App\\": "App/",
+            "App\\Route\\": "App/Route/",
+            "App\\Controllers\\": "App/Controllers/",
+            "App\\Models\\": "App/Models/",
+            "App\\Entity\\": "App/Entity/",
+            "WebSocket\\": "WebSocket/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raissadev",
+            "email": "raissa.fullstack@gmail.com"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4.3"
+    }
+}
