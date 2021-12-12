@@ -1,6 +1,6 @@
 # Chat
 <h3>Sobre o Projeto</h3>
-<p>Fala Devs! Estou trazendo aqui uma plataforma de Chat com Socket</p>
+<p>Fala Devs! Estou trazendo aqui uma plataforma de Chat com Socket. Essa aplicação tem o intuito de ser bidirecional em tempo real entre clientes e servidores🔥</p>
 
 <ul>
   <li>Lenguages:</li>
