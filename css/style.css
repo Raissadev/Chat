@@ -200,4 +200,7 @@ section.container-welcome figure.img-bigger-welcome img{
     .container{
         padding:1rem 0;
     }
+    section.container-welcome {
+        width: 100%;
+    }
 }
