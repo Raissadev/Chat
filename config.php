@@ -11,7 +11,7 @@ define('BASE_STORAGE','http://localhost:8002/storage/');
 define('BASE_IMAGES_USER', __DIR__ . '/storage/users/');
 define('BASE_IMAGES_GROUP', __DIR__ . '/storage/groups/');
 define('HOST','localhost');
-define('DATABASE','community');
+define('DATABASE','database');
 define('PASSWORD','root');
 define('USER','postgres');
 
