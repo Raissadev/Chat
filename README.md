@@ -1,6 +1,6 @@
 # Chat
 <h3>Sobre o Projeto</h3>
-<p>Fala Devs! Estou trazendo aqui uma plataforma de Chat com Socket. Essa aplicação tem o intuito de ser bidirecional em tempo real entre clientes e servidores! Nele foi utilizado websockets para resolver o problema de alta latência, porque pense comigo... Um servidor de chat muitas vezes terá um número muito grande de clientes ativos .🔥</p>
+<p>Fala Devs! Estou trazendo aqui uma plataforma de Chat com Socket. Essa aplicação tem o intuito de ser bidirecional em tempo real entre clientes e servidores! Nele foi utilizado websockets para resolver o problema de alta latência, porque pense comigo... Um servidor de chat muitas vezes terá um número muito grande de clientes ativos a todo momento, a melhor forma de evitar a lentidão do servidor, seria criar um socket. 🔥</p>
 
 <ul>
   <li>Lenguages:</li>
