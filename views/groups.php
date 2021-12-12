@@ -11,7 +11,7 @@
             ?>
             <li class="box w22 margin-right-small margin-bottom-default">
                 <figure class="img-default-user text-center">
-                    <img src="<?= BASE ?>/storage/users/<?= $group['image'] ?>" />
+                    <img src="<?= BASE ?>/storage/groups/<?= $group['image'] ?>" />
                 </figure>
                 <div class="row margin-top-small text-center">
                     <div class="">
