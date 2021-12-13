@@ -20,7 +20,7 @@
 https://user-images.githubusercontent.com/82960240/145720560-162e9cac-0365-4270-abbe-1b1500f58e0f.mp4
 
 <ul>
-  <li>Observação: Para rodar, digite os seguintes programas no seu terminal: </li>
+  <li>Observação: Para rodar, digite os seguintes comandos no seu terminal: </li>
   <i>php -S localhost:8002 | php Server.php | telnet localhost 8080</i>
 </ul>
 
