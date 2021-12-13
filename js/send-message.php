@@ -1,9 +1,9 @@
 <script>
 
 idValue = document.querySelectorAll('#send');
-var userFrom = '<?= $_SESSION['id'] ?>';
-var userTo = '<?= $data['data'] ?>';
-var inputMessage = document.getElementById('message');
+let userFrom = '<?= $_SESSION['id'] ?>';
+let userTo = '<?= $data['data'] ?>';
+let inputMessage = document.getElementById('message');
 
 idValue.forEach((input) => {
     input.addEventListener('click', (e) =>{
@@ -16,7 +16,7 @@ idValue.forEach((input) => {
     });
 });
 
-var conn = new WebSocket('ws://localhost:8080');
+let conn = new WebSocket('ws://localhost:8080');
     
 conn.onopen = function(e) {
     //console.log("Connection established!");
@@ -27,20 +27,20 @@ conn.onmessage = function(e) {
     showMessages('other', e.data);
 };
 
-var form = document.getElementById('form-messages');
-var inputMessage = document.getElementById('message');
-var inputName = '<?= $_SESSION['id'] ?>';
-var inputNameTo = '<?= $data['data'] ?>';
-var buttonSend = document.getElementById('send');
-var areaContent = document.getElementById('messages');
+let form = document.getElementById('form-messages');
+let inputMessage = document.getElementById('message');
+let inputName = '<?= $_SESSION['id'] ?>';
+let inputNameTo = '<?= $data['data'] ?>';
+let buttonSend = document.getElementById('send');
+let areaContent = document.getElementById('messages');
 
 buttonSend.addEventListener('click', function(e) {
     e.preventDefault();
     if(inputMessage != ''){
-        var message = { 'name': inputName, 'message': inputMessage.value, 'user_to': inputNameTo };
+        let message = { 'name': inputName, 'message': inputMessage.value, 'user_to': inputNameTo };
         message = JSON.stringify(message);
 
-        var sessionMessage = sessionStorage.setItem('messages', inputMessage.value);
+        let sessionMessage = sessionStorage.setItem('messages', inputMessage.value);
 
         conn.send(message, sessionMessage);
 
